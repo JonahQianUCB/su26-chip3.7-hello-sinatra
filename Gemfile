@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '3.1.4'
 
 gem 'sinatra', '>= 2.0.1'
+gem 'webrick'
 
 group :development do
   gem 'rerun'
-  gem 'ffi', '1.16.3'
 end
